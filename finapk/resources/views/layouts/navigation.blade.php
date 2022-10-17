@@ -17,7 +17,7 @@
                     </x-nav-link>
                     @role('admin')
                         <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.index')">
-                            {{ __('Admin') }}
+                            {{ __('Adminpanel') }}
                         </x-nav-link>
                     @endrole
                 </div>
@@ -46,7 +46,6 @@
                         <!-- Authentication -->
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
-
                             <x-dropdown-link :href="route('logout')"
                                 onclick="event.preventDefault();
                                                 this.closest('form').submit();">
