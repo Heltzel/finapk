@@ -10,6 +10,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <link rel="shortcut icon" href="{{ asset('img/finapk.png') }}" type="image/x-icon">
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
@@ -88,12 +89,19 @@
         <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <!--Left Col-->
             <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-                <p class="uppercase tracking-loose w-full">What business are you?</p>
+                {{-- <p class="uppercase tracking-loose w-full">What business are you?</p>
                 <h1 class="my-4 text-5xl font-bold leading-tight">
                     Main Hero Message to sell yourself!
                 </h1>
                 <p class="leading-normal text-2xl mb-8">
                     Sub-hero message, not too long and not too short. Make it just right!
+                </p> --}}
+                <p class="uppercase tracking-loose w-full">Algemeen periodiek inzicht in uw finaciën </p>
+                <h1 class="my-4 text-5xl font-bold leading-tight">
+                    Hoe staat u er financieel voor?
+                </h1>
+                <p class="leading-normal text-2xl mb-8">
+                    Vul de scan in en trek uw conclusies
                 </p>
                 <button
                     class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out text-2xl">
