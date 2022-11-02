@@ -13,5 +13,5 @@
                         border-2
                         focus:border-4
                         focus:border-slate-800
-                        border-slate-600"
+                        border-slate-600 "
     href="{{ $href }}">{{ $title }}</a>

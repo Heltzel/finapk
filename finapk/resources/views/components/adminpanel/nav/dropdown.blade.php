@@ -6,7 +6,6 @@
                                         text-yellow-400
                                         focus:text-yellow-200
                                         font-semibold
-
                                         bg-slate-900
                                         focus:bg-slate-600
                                         hover:bg-slate-600
@@ -15,7 +14,9 @@
                                         border-2
                                         focus:border-4
                                         focus:border-slate-800
-                                        border-slate-600">
+                                        border-slate-600
+                                        flex
+                                        justify-between">
          <span class="mr-2">{{ $title }}</span>
          <svg xmlns="http://www.w3.org/2000/svg"
              x-bind:class="selected == {{ $id }} ? 'transform rotate-180' : ''"
